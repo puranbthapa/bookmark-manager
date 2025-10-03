@@ -62,6 +62,14 @@
 
 A complete, feature-rich bookmark management web application built with Laravel 12.x, MySQL 8.x, and Bootstrap 5. This modern application provides an intuitive interface for organizing, searching, and managing bookmarks with advanced features including hierarchical categories, tagging system, full-text search, analytics dashboard, and a Chrome extension for seamless bookmark saving.
 
+## 🏢 Vendor Information
+
+**Developed by:** [Eastlink Cloud Pvt. Ltd.](https://eastlink.com.np)  
+**Contact:** puran@eastlink.net.np  
+**Phone:** +977-01-4101181  
+**Address:** Tripureshwor, Kathmandu, Nepal  
+**Support:** Professional development and maintenance services available
+
 ## 👥 Admin System
 
 This application includes a comprehensive **User & Role Management System** with the following features:
