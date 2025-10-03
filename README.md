@@ -69,6 +69,55 @@ A complete, feature-rich bookmark management web application built with Laravel 
 **Phone:** +977-01-4101181  
 **Address:** Tripureshwor, Kathmandu, Nepal  
 **Support:** Professional development and maintenance services available
+ * ================================================================================
+ * BOOKMARK MANAGER - PROFESSIONAL WEB APPLICATION
+ * ================================================================================
+ * 
+ * 🏢 VENDOR INFORMATION
+ * ────────────────────────────────────────────────────────────────────────────────
+ * Company Name      : Eastlink Cloud Pvt. Ltd.
+ * Developer Team    : Developer Team
+ * Project Lead      : Senior Developer
+ * Contact Email     : puran@eastlink.net.np
+ * Phone Number      : +977-01-4101181
+ * Developer Phone   : +977-9801901140
+ * Business Phone    : +977-9801901141
+ * Address           : Tripureshwor, Kathmandu, Nepal
+ * 
+ * 📋 PROJECT DETAILS
+ * ────────────────────────────────────────────────────────────────────────────────
+ * Application Name  : Advanced Bookmark Management System
+ * Version           : 2.0.0 Enterprise Edition
+ * Build Date        : October 2025
+ * Framework         : Laravel 12.x LTS
+ * Database          : MySQL 8.x / MariaDB 10.x
+ * Frontend          : Bootstrap 5.3 + Custom CSS/JS
+ * License Type      : Commercial Enterprise License
+ * 
+ * 🎯 TECHNICAL SPECIFICATIONS
+ * ────────────────────────────────────────────────────────────────────────────────
+ * ✅ Multi-User Role-Based Access Control
+ * ✅ Advanced Bookmark Organization System
+ * ✅ Comprehensive Educational Resource Collection
+ * ✅ Professional Admin Management Panel
+ * ✅ Advanced Search & Filtering Capabilities
+ * ✅ Real-time Analytics & Reporting
+ * ✅ Responsive Design (Mobile-First)
+ * ✅ Chrome Extension Integration
+ * ✅ API-Ready Architecture
+ * ✅ Security-Hardened Implementation
+ * 
+ * 📞 SUPPORT & MAINTENANCE
+ * ────────────────────────────────────────────────────────────────────────────────
+ * Emergency Support : +977-9801901140 (Developer)
+ * Business Support  : +977-9801901141 (Business)
+ * Office Phone      : +977-01-4101181
+ * Business Hours    : Sunday - Friday, 9 AM - 6 PM NPT
+ * Response Time     : < 4 hours for critical issues
+ * Maintenance       : Quarterly updates & security patches
+ * Documentation     : Complete API & User Documentation Included
+
+
 
 ## 👥 Admin System
 
