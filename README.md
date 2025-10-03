@@ -1,4 +1,7 @@
-# 📚 Bookmark Manager - Laravel Application
+# 📚  * ================================================================================
+ * BOOKMARK MANAGER - PROFESSIONAL WEB APPLICATION
+ * ================================================================================
+   
 
 <!--
 /**
@@ -69,10 +72,7 @@ A complete, feature-rich bookmark management web application built with Laravel 
 **Phone:** +977-01-4101181  
 **Address:** Tripureshwor, Kathmandu, Nepal  
 **Support:** Professional development and maintenance services available
- * ================================================================================
- * BOOKMARK MANAGER - PROFESSIONAL WEB APPLICATION
- * ================================================================================
- * 
+
  * 🏢 VENDOR INFORMATION
  * ────────────────────────────────────────────────────────────────────────────────
  * Company Name      : Eastlink Cloud Pvt. Ltd.
