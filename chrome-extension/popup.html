@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            width: 350px;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 60px;
+        }
+
+        .form-check {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .form-check input[type="checkbox"] {
+            width: auto;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .status {
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .login-form {
+            text-align: center;
+        }
+
+        .login-form input {
+            margin-bottom: 10px;
+        }
+
+        .settings-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .settings-link a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .settings-link a:hover {
+            text-decoration: underline;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">📚 Bookmark Manager</div>
+    </div>
+
+    <!-- Login Form -->
+    <div id="loginForm" class="hidden">
+        <div class="login-form">
+            <h3>Login Required</h3>
+            <p>Please set your API URL and token in the settings.</p>
+            <button id="openSettings" class="btn">Open Settings</button>
+        </div>
+    </div>
+
+    <!-- Settings Form -->
+    <div id="settingsForm" class="hidden">
+        <h3>Extension Settings</h3>
+        <div class="form-group">
+            <label for="apiUrl">API URL:</label>
+            <input type="url" id="apiUrl" placeholder="http://localhost:8000/api" required>
+        </div>
+        <div class="form-group">
+            <label for="apiToken">API Token:</label>
+            <input type="password" id="apiToken" placeholder="Your API token" required>
+        </div>
+        <button id="saveSettings" class="btn">Save Settings</button>
+        <div class="settings-link">
+            <a href="#" id="backToBookmark">← Back to Bookmark</a>
+        </div>
+    </div>
+
+    <!-- Main Bookmark Form -->
+    <div id="bookmarkForm">
+        <div id="status" class="status hidden"></div>
+
+        <form id="saveBookmarkForm">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+
+            <div class="form-group">
+                <label for="url">URL:</label>
+                <input type="url" id="url" name="url" readonly>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" placeholder="Optional description..."></textarea>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" id="favorite" name="favorite">
+                <label for="favorite">Mark as favorite</label>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" id="private" name="private">
+                <label for="private">Make private</label>
+            </div>
+
+            <button type="submit" id="saveBtn" class="btn">
+                💾 Save Bookmark
+            </button>
+        </form>
+
+        <div class="settings-link">
+            <a href="#" id="showSettings">⚙️ Settings</a>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

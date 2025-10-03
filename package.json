@@ -1,0 +1,33 @@
+{
+    "_comment": "Eastlink Cloud Pvt. Ltd. - Advanced Bookmark Management System",
+    "_vendor": "Eastlink Cloud Pvt. Ltd.",
+    "_version": "2.0.0 Enterprise Edition",
+    "_created": "October 2025",
+    "_contact": "puran@eastlink.net.np",
+    "_phone": "+977-01-4101181",
+    "_developer": "+977-9801901140",
+    "_business": "+977-9801901141",
+    "_address": "Tripureshwor, Kathmandu, Nepal",
+    "_license": "Commercial Enterprise License",
+    "$schema": "https://json.schemastore.org/package.json",
+    "name": "bookmark-manager-frontend",
+    "description": "Frontend assets for the Advanced Bookmark Management System",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.2",
+        "@tailwindcss/vite": "^4.0.0",
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.4.2",
+        "axios": "^1.11.0",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^2.0.0",
+        "postcss": "^8.4.31",
+        "tailwindcss": "^3.1.0",
+        "vite": "^7.0.7"
+    }
+}

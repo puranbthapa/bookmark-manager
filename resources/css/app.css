@@ -1,0 +1,32 @@
+/**
+ * ================================================================================
+ * MAIN APPLICATION STYLESHEET - DESIGN SYSTEM
+ * ================================================================================
+ *
+ * 🏢 VENDOR: Eastlink Cloud Pvt. Ltd.
+ * 👨‍💻 AUTHOR: Developer Team
+ * 📅 CREATED: October 2025
+ * 📧 CONTACT: puran@eastlink.net.np
+ * 📞 PHONE: +977-01-4101181
+ * 📱 DEVELOPER: +977-9801901140
+ * 💼 BUSINESS: +977-9801901141
+ * 🏢 ADDRESS: Tripureshwor, Kathmandu, Nepal
+ *
+ * 📋 DESCRIPTION:
+ * Main stylesheet for the bookmark management application.
+ * Integrates Tailwind CSS with custom design components.
+ *
+ * 🎯 FEATURES:
+ * - Tailwind CSS utility framework
+ * - Bootstrap 5 integration
+ * - Responsive design system
+ * - Modern CSS architecture
+ * - Professional color scheme
+ *
+ * ⚖️ LICENSE: Commercial Enterprise License
+ * ================================================================================
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
