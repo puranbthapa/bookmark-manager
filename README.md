@@ -1,6 +1,4 @@
-#  ================================================================================
- #  BOOKMARK MANAGER - PROFESSIONAL WEB APPLICATION
-# ================================================================================
+ ##  BOOKMARK MANAGER - PROFESSIONAL WEB APPLICATION
    
 
 <!--
